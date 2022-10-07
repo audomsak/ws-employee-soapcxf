@@ -21,7 +21,7 @@
 		<groovy.version>3.0.2</groovy.version>
 
 		<!-- Other properties-->
-		<java.version>15</java.version>
+		<java.version>17</java.version>
 		<cxf.version>3.4.0</cxf.version>
 		<springboot.version>2.3.3.RELEASE</springboot.version>
 	</properties>
@@ -35,6 +35,7 @@
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
+			<version>1.18.24</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
