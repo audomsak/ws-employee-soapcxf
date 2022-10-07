@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8080
   error:
     include-message: always
 
@@ -10,7 +10,7 @@ logging:
       jpworks:
         datajdbc: DEBUG
 
-#By default the path for cxf is: /services
+#By default, the path for cxf is: /services
 cxf:
   #Overriding the default path
   path: /soap
